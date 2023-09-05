@@ -416,6 +416,11 @@
     }
 }
 
+@media (max-width: 400px){
+    .projetos .container .cards{
+        margin-top: 60%;
+    }
+}
 
 @media (max-width: 371px){
     .home{
