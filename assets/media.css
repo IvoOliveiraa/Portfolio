@@ -1,0 +1,439 @@
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+    .projetos .container .cards .imagem img {
+        margin-top: 3px;
+        width: 100%;
+        height: 206px;
+    }  
+}
+
+@media (max-width: 991px){
+    header{
+        padding:  2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+    
+    .home{
+        padding: 0 4%;
+    }
+
+    .footer{
+        padding:  2rem 4%;
+    }
+
+    .projetos .container {
+        margin-top: -100px;
+    }
+
+    .projetos .container .cards .card {
+        padding: 20px 41px;
+    }
+
+    .projetos .container .cards .card .informacao {
+        padding-top: 35px;
+    }
+    
+    .projetos .container .cards .imagem img {
+        height: 194px;
+    }
+
+    .projetos .container .cards .card .informacao .projeto-descricao {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 930px){
+    .projetos .container .cards{
+        perspective: 800px; 
+    }
+
+    .projetos .container .cards .card {
+        padding: 17px 38px;
+    }
+}
+
+@media (max-width: 884px){
+    .projetos .container .cards label{
+        width: 400px;
+    }
+} 
+
+@media (max-width: 850px){
+    .animacao.home-img{
+        width: 55%;
+    }
+    .projetos .container .cards{
+        perspective: 750px; 
+    }
+    .projetos .container .cards .card .informacao .projeto-descricao {
+        font-size: 11px;
+    }
+
+    .projetos .container .cards .card .btn-detalhes { 
+        height: 56px;
+    }
+    .projetos .container .cards .imagem img {
+        height: 187px;
+    }
+}
+
+@media (max-width: 808px){
+    .projetos .container .cards{
+        perspective: 650px; 
+    }
+}
+
+@media (max-width: 779px){
+    .projetos .container .cards{
+        perspective: 600px; 
+    }
+    
+    .projetos .container .cards .imagem img {
+        height: 163px;
+    }
+    .projetos .container .cards .card .informacao .projeto-descricao {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        background: var(--cor-bg);
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: var(--cor-principal);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25S ease;
+        transition-delay: .25s;
+    }
+
+    nav.ativar{
+        left: 0;
+        transition-delay: 0s;
+    }
+
+    nav .ativar-nav{
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--cor-bg);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    nav.ativar .ativar-nav{
+        transition-delay: .25s;
+        left: 0;
+    }
+
+    nav > a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    nav.ativar > a{
+        transform: translateX(0);
+        transition-delay: .25s;
+    }
+
+    .home-imgHover{
+        pointer-events: none;
+        background: var(--cor-bg);
+        opacity: .6;
+    }
+
+    .sobre .sobre-geral{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sobre-conteudo{
+        text-align: center;
+        max-width: 90%;
+    }
+    .sobre .social-conteudo{
+        max-width: 90%;
+    }
+
+    .sobre-conteudo {
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+}
+
+
+
+@media (max-width: 735px){
+    .projetos .container .cards{
+        perspective: 450px; 
+    }
+
+    .projetos .container .cards .card {
+        padding: 13px 51px;
+    }
+
+    .projetos .container .cards .card .informacao .projeto-nome {
+        font-size: 18px;
+    }
+    .projetos .container .cards .card .btn-detalhes {
+        height: 40px;
+    }
+    
+}
+
+
+
+@media (max-width: 704px){
+    .projetos .container .cards label{
+        width: 380px;
+    }
+
+    .home{
+        justify-content:center ;  
+    }
+
+    .home-conteudo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 85%; 
+    }
+
+    .home-conteudo > h1{
+        font-size: 5rem;
+    }
+
+    .botao-box .botao {
+        margin: auto;
+    } 
+
+    .home-conteudo > p{
+        letter-spacing: 0.4px;
+    }
+}
+
+
+
+
+@media (max-width: 684px){
+    .projetos .container .cards{
+        perspective: 400px; 
+    }
+    .projetos .container .cards .card {
+        height: 450px
+    }
+}
+
+
+
+
+@media (max-width: 656px){
+    .projetos .container .cards label{
+        width: 360px;
+    }
+    .projetos .container .cards{
+        perspective: 340px; 
+    }
+    .projetos .container .cards .card .informacao .projeto-nome {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 605px){
+    .projetos .container .cards{
+        perspective: 330px; 
+    }
+    .projetos .container .cards .card .informacao {
+        padding-top: 26px;
+    }
+    .projetos .container .cards label{
+        width: 355px;
+    }
+}
+
+@media (max-width: 589px){
+    .projetos .container .cards{
+        perspective: 320px; 
+    }
+    .projetos .container .cards .card .informacao {
+        padding-top: 22px;
+    }
+    .projetos .container .cards .imagem {
+        flex-direction: column-reverse;
+    }
+    .projetos .container .cards .imagem img {
+        height: 150px;
+    }
+} 
+
+@media (max-width: 575px){
+    .skills .conteudo-skills .swiper .swiper-wrapper .icones {
+        margin: auto;
+        padding-left: 50px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .projetos .container .cards label{
+        width: 345px;
+    }
+    .projetos .container .cards{
+        perspective: 310px;
+    }
+    .projetos .container .cards .imagem img {
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 520px){
+    html{
+        font-size: 50%;
+    }
+
+    .home-conteudo > h1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social-media{
+        width: 160px;
+    }
+
+    .social-media > a{
+        width: 38px;
+        height: 38px;
+    }
+
+    .projetos .container .cards label{
+        width: 335px;
+    }
+
+    .projetos .container .cards{
+        perspective: 305px;
+    }
+}
+
+
+
+@media (max-width: 482px){
+    .projetos .container .cards label{
+        width: 325px;
+    }
+    .projetos .container .cards{
+        perspective: 289px;
+    }
+    .projetos .container .cards .card .btn-detalhes {
+        margin: 20px auto;
+    }
+}
+
+
+
+
+@media (max-width: 462px){
+    .home-conteudo > h1{
+        font-size: 5.2rem;
+    }
+
+    .educacao{
+        padding: 10rem 4% 5rem 5%;
+    }
+
+    .contato > form .input-box .input-field{
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer > p{
+        margin-top: 2rem;
+        align-items: center;
+    }
+    .projetos .container .cards label{
+        width: 308px;
+    }
+
+    .projetos .container .cards .card .btn-detalhes {
+        height: 37px;
+    }
+    .projetos .container .cards .card .informacao {
+        padding-top: 18px;
+    }
+    .projetos .container .cards .card .informacao .projeto-nome {
+        white-space: nowrap;
+    }
+}
+
+
+
+
+@media (max-width: 447px){
+    .projetos .container .cards label{
+        width: 260px;
+    }
+    .projetos .container .cards{
+        perspective: 450px;
+    }
+    .projetos .container .cards .imagem img {
+        height: 126px;
+    }
+    .projetos .container .cards .card .btn-detalhes {
+        margin-top: 34px;
+    }
+    .projetos .container .cards .card .informacao .projeto-nome {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 371px){
+    .home{
+        justify-content:center ;  
+    }
+
+    .home-conteudo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-conteudo > h1{
+        font-size: 5rem;
+    }
+
+    .botao-box .botao {
+     margin: auto;
+    }
+}
