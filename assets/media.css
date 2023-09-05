@@ -417,13 +417,6 @@
 }
 
 
-@media (max-width: 380px){
-    .projetos .cabecalho{
-        margin-bottom: 35%;
-    }
-}
-
-
 @media (max-width: 371px){
     .home{
         justify-content:center ;  
