@@ -1,6 +1,7 @@
 //taggLe icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('nav');
+let links = document.querySelectorAll('nav a');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -8,8 +9,12 @@ menuIcon.onclick = () => {
 }
 
 //removendo o menu na hora de clicar
-menuIcon.classList.remove('bx-x');
-navbar.classList.remove('ativar');
+links.forEach(link =>{
+    link.addEventListener('click', () =>{
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('ativar');
+    })
+})
 
 
 //scroll sections
