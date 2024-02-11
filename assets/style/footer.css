@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--cor-secundaria);
+}
+
+.footer-texto,
+.footer-iconTop{
+    position: relative
+}
+
+.footer-texto > p{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop > a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--cor-principal);
+    border: .2rem solid var(--cor-principal);
+    border-radius: .6rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-iconTop > a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--cor-secundaria);
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-iconTop > a:hover::before{
+    width: 100%;
+}
+
+.footer-iconTop > a > i{
+    font-size: 2.4rem;
+    color: var(--cor-bg);
+    transition: .5s;
+}
+
+.footer-iconTop > a:hover > i{
+    color: var(--cor-principal);
+}

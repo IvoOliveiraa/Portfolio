@@ -380,6 +380,11 @@
         margin-top: 2rem;
         align-items: center;
     }
+
+    .footer-iconTop > a{
+        margin-bottom: 6px;
+    }
+    
     .projetos .container .cards label{
         width: 308px;
     }

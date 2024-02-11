@@ -1,0 +1,89 @@
+.animacao{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--cor-bg);
+    z-index: 98;
+}
+
+.animacao.home-img{
+    width: 50%;
+}
+
+.logo .animacao,
+nav .animacao,
+#menu-icon .animacao,
+.home.mostrar-animacao .animacao{
+    animation: mostrarRight 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+}
+
+.animacao.scroll{
+    transition: 1s ease;
+    transition-delay: calc(.3s / var(--i));
+    animation: none;
+}
+
+section:nth-child(odd) .animacao.scroll,
+.footer .animacao.scroll{
+    background: var(--cor-secundaria);
+}
+
+.educacao .educacao-box .animacao.scroll{
+    width: 105%;
+}
+
+.sobre.mostrar-animacao .animacao.scroll,
+.educacao.mostrar-animacao .animacao.scroll,
+.projetos.mostrar-animacao .animacao.scroll,
+.skills.mostrar-animacao .animacao.scroll,
+.footer.mostrar-animacao .animacao.scroll {
+    transition-delay: calc(.3s * var(--i));
+    width: 0;
+}
+
+@keyframes homeBgText{
+    0%,
+    10%,
+    100%{
+        background-position: -33rem 0;
+    }
+
+    65%,
+    85%{
+        background-position: 0 0;
+    }
+}
+
+@keyframes homeCursorText{
+    0%,
+    10%,
+    100%{
+       width: 0;
+    }
+
+    65%,
+    78%,
+    85%{
+        width: 100%;
+        opacity: 1;
+    }
+    75%,
+    81%{
+        opacity: 0;
+    }
+}
+
+@keyframes sobreSpinner{
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes mostrarRight{
+    100%{
+        width: 0;
+    }
+}

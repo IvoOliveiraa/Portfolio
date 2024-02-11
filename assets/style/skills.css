@@ -1,0 +1,130 @@
+.skills{
+    min-height: auto;
+    padding-top: 22rem;
+    padding-bottom: 22rem;
+}
+
+.skills > h2{
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.conteudo-skills{
+
+    max-width: 1330px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.title-skills{
+    font-size: 2.5rem;
+    line-height: 29px;
+    margin: 60px 0;
+    font-weight: 600;
+    color: var(--cor-texto);
+    text-align: center;
+
+}
+
+.swiper-wrapper{
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.swiper-wrapper .swiper-slide{
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--cor-bg);
+    transition: all .6s ease;
+}
+
+.swiper-wrapper .swiper-slide .info-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.swiper-wrapper .swiper-slide .main-img{
+    height: 60%;
+    margin: 0 auto;
+    object-fit: contain;
+    object-position: center;
+    width: 230px;
+    transition: all 1s ease;
+}
+
+.swiper-wrapper .swiper-slide .main-img:hover{
+    transform: scale(1.05);
+}
+
+.swiper-wrapper .infos{
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    width: 85%;
+}
+
+.swiper-wrapper .infos p{
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.swiper-pagination-bullet-active{
+
+    background: var(--cor-texto);
+}
+
+.skills .conteudo-skills .swiper .swiper-wrapper{
+    background-color: var(--cor-bg);
+}
+
+.skills .conteudo-skills .swiper .swiper-wrapper .icones{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    font-size: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    object-fit: cover;
+    color: var(--cor-secundaria);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.skills .conteudo-skills .swiper .swiper-wrapper .icones:hover{
+    color: var(--cor-principal);
+}
+
+.skills .conteudo-skills .swiper .swiper-wrapper .icones i{
+    position: absolute;
+}
+
+.skills .conteudo-skills .swiper .swiper-wrapper .loading{
+    cursor: pointer;
+    color: var(--cor-principal);
+    width: 20rem;
+    background: transparent;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.skills .conteudo-skills .title-skills{
+    position: relative;
+}

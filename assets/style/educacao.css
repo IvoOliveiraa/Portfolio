@@ -1,0 +1,95 @@
+.educacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.educacao .educacao-linha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.educacao-linha .educacao-coluna{
+    flex: 1 1 40rem;
+}
+
+.educacao-coluna .title{
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.educacao-coluna .educacao-box{
+    position: relative;
+    border-left: .2rem solid var(--cor-principal);
+}
+
+.educacao-box .educacao-conteudo{
+    position: relative;
+    padding-left: 2rem;
+}
+
+.educacao-box .educacao-conteudo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--cor-principal);
+    border-radius: 50%;
+}
+
+.educacao-conteudo .conteudo{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid var(--cor-principal);
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.educacao-conteudo .conteudo p{
+    font-size: 1.6rem;
+    letter-spacing: 0.3px;  
+}
+
+.educacao-conteudo .conteudo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--cor-secundaria);
+    z-index: -1;
+    transition: .5s;
+}
+
+.educacao-conteudo .conteudo:hover::before{
+    width: 100%;
+}
+
+.educacao-conteudo .conteudo .ano{
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+    padding-bottom: .5rem;
+}
+
+.educacao-conteudo .conteudo .ano > i{
+    padding-right: .5rem;
+}
+
+.educacao-conteudo .conteudo > h3{
+    font-size: 2rem;
+}
+
+.educacao-conteudo .conteudo > p{
+     font-size: 1.6rem;
+     padding-top: .5rem;
+}
