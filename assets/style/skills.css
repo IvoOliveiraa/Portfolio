@@ -101,14 +101,10 @@
     justify-content: space-between;
     background: transparent;
     object-fit: cover;
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-}
-
-.skills .conteudo-skills .swiper .swiper-wrapper .icones:hover{
-    color: var(--cor-principal);
 }
 
 .skills .conteudo-skills .swiper .swiper-wrapper .icones i{
