@@ -28,7 +28,6 @@ nav{
 }
 
 nav > a{
-    font-size: 1.7rem;
     color: var(--cor-texto);
     font-weight: 500;
     margin-left: 3.5rem;

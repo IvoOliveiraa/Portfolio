@@ -1,4 +1,4 @@
-//taggLe icon navbar
+//toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('nav');
 let links = document.querySelectorAll('nav a');
@@ -77,3 +77,50 @@ var swiper = new Swiper(".mySwiper", {
     }
 })
 
+
+
+//getAllCards
+const getAllCards = async() =>{
+    try{
+        const res = await fetch('projetos.json');
+        const data = await res.json();
+
+        const cards = document.querySelector(".cards");
+
+        cards.innerHTML = data.map(card => `
+
+            <div class="cards">
+                <span class="animacao scroll" style="--i:2;"></span>
+
+                <div class="card">
+                    <div class="imagem">
+                        <img src="${card.imagem} " alt="${card.alt}">
+                    </div>
+
+                    <div class="informacao">
+
+                        <div class="img-info">
+                            <img src="${card.imagemInfo}" alt="${card.alt}">
+                        </div>
+                        <div class="bg"></div>
+                        
+                        <h3 class="projeto-nome">${card.nome} </h3>
+                        <p class="projeto-descricao">${card.descricao}</p>
+
+                        <div class="btn-cod">
+                            <a href="${card.link}" target="_blank" class="btn-detalhes">Código<i class='bx bxl-github'></i></a> 
+                        </div>
+                        
+                    </div>
+                </div>
+
+             </div>
+
+        `).join("");
+
+    }catch(err){
+        throw new Error('Erro ao carregar os cards' + err)
+    }
+}
+
+getAllCards()

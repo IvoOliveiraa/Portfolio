@@ -19,13 +19,10 @@
 }
 
 .title-skills{
-    font-size: 2.5rem;
-    line-height: 29px;
     margin: 60px 0;
     font-weight: 600;
     color: var(--cor-texto);
     text-align: center;
-
 }
 
 .swiper-wrapper{
@@ -43,29 +40,6 @@
     transition: all .6s ease;
 }
 
-.swiper-wrapper .swiper-slide .info-icon{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    opacity: 0.25;
-    cursor: pointer;
-}
-
-.swiper-wrapper .swiper-slide .main-img{
-    height: 60%;
-    margin: 0 auto;
-    object-fit: contain;
-    object-position: center;
-    width: 230px;
-    transition: all 1s ease;
-}
-
-.swiper-wrapper .swiper-slide .main-img:hover{
-    transform: scale(1.05);
-}
-
 .swiper-wrapper .infos{
     bottom: 10px;
     display: flex;
@@ -75,15 +49,7 @@
     width: 85%;
 }
 
-.swiper-wrapper .infos p{
-    font-size: 13px;
-    line-height: 30px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
 .swiper-pagination-bullet-active{
-
     background: var(--cor-texto);
 }
 
@@ -91,11 +57,14 @@
     background-color: var(--cor-bg);
 }
 
+.skills .conteudo-skills .swiper .swiper-wrapper .bx{
+    font-size: 150px;
+}
+
 .skills .conteudo-skills .swiper .swiper-wrapper .icones{
     position: relative;
     width: 250px;
     height: 250px;
-    font-size: 150px;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +85,6 @@
     color: var(--cor-principal);
     width: 20rem;
     background: transparent;
-    font-size: 11px;
     font-weight: 600;
     letter-spacing: .1rem;
 }

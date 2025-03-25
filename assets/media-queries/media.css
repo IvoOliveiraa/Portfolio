@@ -1,7 +1,4 @@
 @media (max-width: 1200px){
-    html{
-        font-size: 55%;
-    }
     .projetos .container .cards .imagem img {
         margin-top: 3px;
         width: 100%;
@@ -42,9 +39,6 @@
         height: 194px;
     }
 
-    .projetos .container .cards .card .informacao .projeto-descricao {
-        font-size: 12px;
-    }
 }
 
 @media (max-width: 930px){
@@ -70,10 +64,6 @@
     .projetos .container .cards{
         perspective: 750px; 
     }
-    .projetos .container .cards .card .informacao .projeto-descricao {
-        font-size: 11px;
-    }
-
     .projetos .container .cards .card .btn-detalhes { 
         height: 56px;
     }
@@ -95,9 +85,6 @@
     
     .projetos .container .cards .imagem img {
         height: 163px;
-    }
-    .projetos .container .cards .card .informacao .projeto-descricao {
-        font-size: 11px;
     }
 }
 
@@ -148,7 +135,6 @@
 
     nav > a{
         display: block;
-        font-size: 2rem;
         margin: 3rem 0;
         transform: translateX(-20rem);
         transition: .25s ease;
@@ -195,10 +181,6 @@
     .projetos .container .cards .card {
         padding: 13px 51px;
     }
-
-    .projetos .container .cards .card .informacao .projeto-nome {
-        font-size: 18px;
-    }
     .projetos .container .cards .card .btn-detalhes {
         height: 40px;
     }
@@ -222,10 +204,6 @@
         flex-direction: column;
         text-align: center;
         max-width: 85%; 
-    }
-
-    .home-conteudo > h1{
-        font-size: 5rem;
     }
 
     .botao-box .botao {
@@ -258,9 +236,6 @@
     }
     .projetos .container .cards{
         perspective: 340px; 
-    }
-    .projetos .container .cards .card .informacao .projeto-nome {
-        font-size: 16px;
     }
 }
 
@@ -315,10 +290,6 @@
 
 
 @media (max-width: 520px){
-    html{
-        font-size: 50%;
-    }
-
     .home-conteudo > h1{
         display: flex;
         flex-direction: column;
@@ -360,10 +331,6 @@
 
 
 @media (max-width: 462px){
-    .home-conteudo > h1{
-        font-size: 5.2rem;
-    }
-
     .educacao{
         padding: 10rem 4% 5rem 5%;
     }
@@ -416,9 +383,6 @@
     .projetos .container .cards .card .btn-detalhes {
         margin-top: 34px;
     }
-    .projetos .container .cards .card .informacao .projeto-nome {
-        font-size: 14px;
-    }
 }
 
 @media (max-width: 400px){
@@ -438,11 +402,6 @@
         flex-direction: column;
         text-align: center;
     }
-
-    .home-conteudo > h1{
-        font-size: 5rem;
-    }
-
     .botao-box .botao {
      margin: auto;
     }
