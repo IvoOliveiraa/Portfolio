@@ -1,10 +1,3 @@
-@media (max-width: 1200px){
-    .projetos .container .cards .imagem img {
-        margin-top: 3px;
-        width: 100%;
-        height: 206px;
-    }  
-}
 
 @media (max-width: 991px){
     header{
@@ -23,70 +16,15 @@
         padding:  2rem 4%;
     }
 
-    .projetos .container {
-        margin-top: -100px;
-    }
-
-    .projetos .container .cards .card {
-        padding: 20px 41px;
-    }
-
-    .projetos .container .cards .card .informacao {
-        padding-top: 35px;
-    }
-    
-    .projetos .container .cards .imagem img {
-        height: 194px;
-    }
-
 }
 
-@media (max-width: 930px){
-    .projetos .container .cards{
-        perspective: 800px; 
-    }
-
-    .projetos .container .cards .card {
-        padding: 17px 38px;
-    }
-}
-
-@media (max-width: 884px){
-    .projetos .container .cards label{
-        width: 400px;
-    }
-} 
 
 @media (max-width: 850px){
     .animacao.home-img{
         width: 55%;
     }
-    .projetos .container .cards{
-        perspective: 750px; 
-    }
-    .projetos .container .cards .card .btn-detalhes { 
-        height: 56px;
-    }
-    .projetos .container .cards .imagem img {
-        height: 187px;
-    }
 }
 
-@media (max-width: 808px){
-    .projetos .container .cards{
-        perspective: 650px; 
-    }
-}
-
-@media (max-width: 779px){
-    .projetos .container .cards{
-        perspective: 600px; 
-    }
-    
-    .projetos .container .cards .imagem img {
-        height: 163px;
-    }
-}
 
 @media (max-width: 768px){
     header{
@@ -172,28 +110,7 @@
 }
 
 
-
-@media (max-width: 735px){
-    .projetos .container .cards{
-        perspective: 450px; 
-    }
-
-    .projetos .container .cards .card {
-        padding: 13px 51px;
-    }
-    .projetos .container .cards .card .btn-detalhes {
-        height: 40px;
-    }
-    
-}
-
-
-
 @media (max-width: 704px){
-    .projetos .container .cards label{
-        width: 380px;
-    }
-
     .home{
         justify-content:center ;  
     }
@@ -216,75 +133,10 @@
 }
 
 
-
-
-@media (max-width: 684px){
-    .projetos .container .cards{
-        perspective: 400px; 
-    }
-    .projetos .container .cards .card {
-        height: 450px
-    }
-}
-
-
-
-
-@media (max-width: 656px){
-    .projetos .container .cards label{
-        width: 360px;
-    }
-    .projetos .container .cards{
-        perspective: 340px; 
-    }
-}
-
-
-
-@media (max-width: 605px){
-    .projetos .container .cards{
-        perspective: 330px; 
-    }
-    .projetos .container .cards .card .informacao {
-        padding-top: 26px;
-    }
-    .projetos .container .cards label{
-        width: 355px;
-    }
-}
-
-@media (max-width: 589px){
-    .projetos .container .cards{
-        perspective: 320px; 
-    }
-    .projetos .container .cards .card .informacao {
-        padding-top: 22px;
-    }
-    .projetos .container .cards .imagem {
-        flex-direction: column-reverse;
-    }
-    .projetos .container .cards .imagem img {
-        height: 150px;
-    }
-} 
-
 @media (max-width: 575px){
     .skills .conteudo-skills .swiper .swiper-wrapper .icones {
         margin: auto;
         padding-left: 50px;
-    }
-}
-
-
-@media (max-width: 550px){
-    .projetos .container .cards label{
-        width: 345px;
-    }
-    .projetos .container .cards{
-        perspective: 310px;
-    }
-    .projetos .container .cards .imagem img {
-        height: 150px;
     }
 }
 
@@ -303,31 +155,7 @@
         width: 38px;
         height: 38px;
     }
-
-    .projetos .container .cards label{
-        width: 335px;
-    }
-
-    .projetos .container .cards{
-        perspective: 305px;
-    }
 }
-
-
-
-@media (max-width: 482px){
-    .projetos .container .cards label{
-        width: 325px;
-    }
-    .projetos .container .cards{
-        perspective: 289px;
-    }
-    .projetos .container .cards .card .btn-detalhes {
-        margin: 20px auto;
-    }
-}
-
-
 
 
 @media (max-width: 462px){
@@ -352,44 +180,8 @@
         margin-bottom: 6px;
     }
     
-    .projetos .container .cards label{
-        width: 308px;
-    }
-
-    .projetos .container .cards .card .btn-detalhes {
-        height: 37px;
-    }
-    .projetos .container .cards .card .informacao {
-        padding-top: 18px;
-    }
-    .projetos .container .cards .card .informacao .projeto-nome {
-        white-space: nowrap;
-    }
 }
 
-
-
-
-@media (max-width: 447px){
-    .projetos .container .cards label{
-        width: 260px;
-    }
-    .projetos .container .cards{
-        perspective: 450px;
-    }
-    .projetos .container .cards .imagem img {
-        height: 126px;
-    }
-    .projetos .container .cards .card .btn-detalhes {
-        margin-top: 34px;
-    }
-}
-
-@media (max-width: 400px){
-    .projetos .container .cards{
-        margin-top: 30%;
-    }
-}
 
 @media (max-width: 371px){
     .home{
